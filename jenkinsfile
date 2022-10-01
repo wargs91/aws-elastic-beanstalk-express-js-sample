@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'npm instal--save'
+        sh 'npm install--save'
       }
     }
   }
